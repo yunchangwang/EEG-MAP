@@ -104,7 +104,7 @@ for p=1:P
         all_loglik{p,a}=loglik_all;
         all_Pix{p,a}=Pix_all;
         %≤‚ ‘
-        [LABELS_TEST] = GMM_MAP_test1( testData,Mu,Sigma,K );
+        [LABELS_TEST] = GMM_MAP_test3( testData,Mu,Sigma,K );
         %º∆À„kapaœµ ˝
         [kapa_k,kapa]=get_kapa(label_real,LABELS_TEST);
         all_kapa{p,a}=kapa_k;

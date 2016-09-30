@@ -7,6 +7,8 @@
 % V1 - Elapsed time is 55.475676 seconds.
 % V2 - Elapsed time is 23.558761 seconds.
 
+%处理gdf格式的函数，只是将gdf转换成mat(以*BCICMP结尾的函数都不需要关注)
+
 clear
 clc
 

@@ -5,6 +5,9 @@
 
 %   2012.05.30 试运行 Elapsed time is 76.108145 seconds. 
 
+%生成 main4 运行所需的数据，必先运行 main2 ，再运行 main4
+%从 path 属性中选择你需要训练和测试的人
+
 clear
 clc
 
